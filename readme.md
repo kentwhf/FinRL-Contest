@@ -1,19 +1,22 @@
 # Data-centric Stock Trading Task
 This template includes all the essential source files for the Stock Trading task in the FinRL ICAIF contest. Below, you'll find detailed descriptions of each component.
 
-## Folder Structure
-
+## Submission
+```
 ├── Finrl-contest 
-│ ├── results # PPO logs
-│ ├── trained_models # Trained PPO weights
-│ ├── train_data.csv # Source data file
-│ ├── train.py # Source file for training using the default PPO model
-│ ├── test.py # Source file for testing the contestants' submitted PPO model
+│ ├── trained_models # Your trained PPO weights
+│ ├── test.py # File for testing your submitted PPO model
+│ ├── readme.md # File to explain the your code
+│ ├── requirements.txt # Have it if adding any new packages
+│ ├── And any additional scripts you create
+```
 
 ## Instruction
 To install the necessary dependencies, please ensure you are using Python 3.10 as your interpreter.
 ```
-pip install -r requirements.txt
+pip install swig
+pip install box2d
+pip install git+https://github.com/AI4Finance-Foundation/FinRL.git
 ```
 
 ## Deliverable
